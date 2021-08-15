@@ -1,0 +1,127 @@
+
+
+.nav
+{
+    background-color:rgb(173, 174, 199);
+    width: 60em;
+    margin: auto;
+}
+
+.header-menu
+{
+  background-color: rgb(18, 38, 131);
+  border-style: inset;
+  border-width: 0.35em;
+  border-color: rgb(255, 0, 0);
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60em;
+  height: 4em;
+  margin: auto;
+ box-shadow: -0.1em -0em 0.6em cyan; ;
+}
+
+main {
+   margin-left: 150px;
+   margin-top: 20px ;
+  }
+  img
+  {
+    border-radius: 2%;
+ 
+  }
+.header-menu li 
+{
+    background-color: rgb(30, 211, 181);
+    border-style: inset;
+    border-width: 0.3em;
+    border-color: rgb(216, 29, 29);
+    height: 45px;
+    border-radius: 20%;
+    padding: 0.68%; 
+    margin: auto;
+    animation-name: Coloring;
+    animation-duration: 3s  ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+
+@keyframes  Coloring
+{
+    0%  { color: rgb(98, 0, 255);}
+    20% { color: rgb(255, 0, 0);}
+    40% { color: rgb(0, 255, 13);}
+    60% { color: rgb(255, 196, 0);}
+    80% { color: rgb(225, 0, 255);}
+    100% { color: rgb(0, 17, 255);} 
+}
+
+.first-ad
+{
+    margin-top: 17px;
+    border-style: inset;
+    height: 30px;
+    animation-name: We-Bounce-Ad;
+    animation-iteration-count: 3;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    transform: translateX(-300px);
+}
+
+@keyframes We-Bounce-Ad
+{
+    0%  {transform: translateX(-500px);}
+    100%  {transform: translateX(1800px);}
+}
+
+.Epic-sale
+{
+    border-radius: 3%;
+    background-color: rgb(30, 211, 181);
+    border-style: inset;
+    border-width: 0.3em;
+    border-color: rgb(216, 29, 29);
+    height: 450px;
+    margin-left: 248.5px;
+    margin-top: 9px;  
+}
+
+.Epic-sale:hover
+{
+    animation-name: Epic-sale;
+    animation-duration: 2s  ;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+@keyframes Epic-sale 
+{
+    0%  { transform: translateX(12px);}
+    20% { transform: translateX(-12px);}
+    40% { transform: translateX(12px);}
+    60% { transform: translateX(-12px);}
+    80% { transform: translateX(-12px);}
+    100% { transform: translateX(12px);} 
+}
+
+a:hover
+{
+ color: rgb(13, 255, 0);
+ font-family: cursive;
+ font-style: italic;
+ font-size: larger;
+}
+
+
+
+a
+{
+    animation-name: Coloring;
+    animation-duration: 3s  ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ text-decoration: none;
+}
